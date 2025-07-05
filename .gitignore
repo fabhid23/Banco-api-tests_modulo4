@@ -1,2 +1,4 @@
-node_modues/
+
+node_modules/
 mochawesome-report/
+.env
