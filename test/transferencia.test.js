@@ -23,7 +23,7 @@ describe('Transferencias', () => {
 
                 //console.log(resposta.body)
         }),
-        it('Deve retornar sucesso com 402 quando o valor da transferencia for abaixo de 10 reais', async () => {
+        it('Deve retornar sucesso com 422 quando o valor da transferencia for abaixo de 10 reais', async () => {
             const bodyTransferencias = { ...postTransferencias }
             bodyTransferencias.valor = 7
 
